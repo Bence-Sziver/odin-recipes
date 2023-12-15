@@ -1,5 +1,17 @@
 * {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -8,13 +20,14 @@ body {
 
 h1 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 ul {
   list-style: none;
   text-align: center;
-  padding: 0;
   font-weight: bold;
+  margin-bottom: 40px;
 }
 
 ol {
@@ -25,6 +38,7 @@ ol {
 
 li {
   padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 li a {
@@ -37,11 +51,13 @@ img {
   margin: 0 auto;
   height: auto;
   width: 500px;
+  margin-bottom: 40px;
 }
 
 h2 {
   text-align: center;
   color: rgb(60, 61, 65);
+  margin-bottom: 20px;
 }
 
 p {
@@ -49,4 +65,5 @@ p {
   font-weight: bold;
   width: 600px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
