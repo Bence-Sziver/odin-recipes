@@ -1,0 +1,35 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: bisque;
+  color: hsl(27, 89%, 17%);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p,
+ul,
+ol,
+a {
+  font-size: 20px;
+}
+
+.lasagna-img {
+  width: 683px;
+  height: auto;
+}
+
+.curry-img {
+  width: 750px;
+  height: auto;
+}
+
+.tortillapizza-img {
+  width: 738px;
+  height: auto;
+}
